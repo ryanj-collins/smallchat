@@ -246,6 +246,7 @@ int main(void) {
         fd_set readfds;
         struct timeval tv;
         int retval;
+        int ryan;
 
         FD_ZERO(&readfds);
         /* When we want to be notified by select() that there is
